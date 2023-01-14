@@ -46,11 +46,10 @@ public class dataKabupatenKota {
 
         for(String[] varData : data){
             ModelData modelData = new ModelData();
-            modelData.setNamakabupaten(varData[0]);
-            modelData.setNamakota(varData[2]);
-            modelData.setFoto(varData[3]);
 
-
+            modelData.setNamakabupaten(varData[0]); //Array Nama Kabupaten
+            modelData.setNamakota(varData[2]); //Arrray Deskripsi
+            modelData.setFoto(varData[3]);//Array Url Foto
 
             dataKabupatenKota.add(modelData);
 
