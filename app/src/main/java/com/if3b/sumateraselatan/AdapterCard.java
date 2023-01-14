@@ -39,7 +39,6 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.KabupatenViewH
 
         holder.tvNamaKab.setText(kabupaten.getNamakabupaten());
         holder.tvNamaKota.setText(kabupaten.getNamakota());
-        //holder.tvDeskripsi.setText(kabupaten.getDeskripsi());
 
 
         Glide
@@ -55,13 +54,11 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.KabupatenViewH
                 String xNamaKabupaten,xNamaKota,xDeskripsi,xFoto;
                 xNamaKabupaten = kabupaten.getNamakabupaten();
                 xNamaKota = kabupaten.getNamakota();
-                //xDeskripsi = kabupaten.getDeskripsi();
                 xFoto=kabupaten.getFoto();
 
                 Intent Kirim = new Intent(ctx, DetailActivity.class);
                 Kirim.putExtra("xNamaKabupaten",xNamaKabupaten);
-                Kirim.putExtra("xNamaKota",xNamaKota);
-                //Kirim.putExtra("xDeskripsi",xDeskripsi);
+                Kirim.putExtra("xNamaKota",xNamaKota); //deskripsi
                 Kirim.putExtra("xFoto",xFoto);
 
                 ctx.startActivity(Kirim);
@@ -80,7 +77,7 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.KabupatenViewH
     public class KabupatenViewHolder extends RecyclerView.ViewHolder
     {
         ImageView ivFotoKab;
-        TextView tvNamaKab, tvNamaKota ,tvDeskripsi;
+        TextView tvNamaKab, tvNamaKota;
         Button btnLokasi;
 
 
@@ -89,7 +86,6 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.KabupatenViewH
             ivFotoKab = itemView.findViewById(R.id.iv_fotoKab);
             tvNamaKab = itemView.findViewById(R.id.tv_nama_kabupaten);
             tvNamaKota= itemView.findViewById(R.id.tv_nama_kota);
-            tvDeskripsi= itemView.findViewById(R.id.tv_deskripsi);
             btnLokasi=itemView.findViewById(R.id.btn_lokasi);
         }
     }

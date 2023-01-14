@@ -1,22 +1,22 @@
 package com.if3b.sumateraselatan;
 
 public class ModelData {
-    private String Namakabupaten,Namakota,deskripsi,foto;
+    private String namakabupaten,namakota,deskripsi,foto,daerah;
 
     public String getNamakabupaten() {
-        return Namakabupaten;
+        return namakabupaten;
     }
 
     public void setNamakabupaten(String namakabupaten) {
-        Namakabupaten = namakabupaten;
+        this.namakabupaten = namakabupaten;
     }
 
     public String getNamakota() {
-        return Namakota;
+        return namakota;
     }
 
     public void setNamakota(String namakota) {
-        Namakota = namakota;
+        this.namakota = namakota;
     }
 
     public String getDeskripsi() {
@@ -33,5 +33,13 @@ public class ModelData {
 
     public void setFoto(String foto) {
         this.foto = foto;
+    }
+
+    public String getDaerah() {
+        return daerah;
+    }
+
+    public void setDaerah(String daerah) {
+        this.daerah = daerah;
     }
 }
