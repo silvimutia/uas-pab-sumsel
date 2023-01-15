@@ -10,7 +10,7 @@
         android:id="@+id/nama_rafly"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Mgs.M.Rafly Djauhari"
+        android:text="Masagus Muhammad Rafli Djauhari"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
@@ -25,7 +25,7 @@
         android:textSize="18sp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:text="21252500--"
+        android:text="2125250034"
         />
 
     <TextView
@@ -33,7 +33,7 @@
         android:id="@+id/nama_dhea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Annisah Dhiya"
+        android:text="Anisah Dhiyaa Azzahra Putri"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:textStyle="bold"
@@ -47,7 +47,7 @@
         android:textSize="18sp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:text="21252500--"
+        android:text="2125250085"
         />
 
     <TextView
@@ -70,7 +70,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
 
-        android:text="21252500--"
+        android:text="2125250094"
         />
 
     <TextView
@@ -92,7 +92,7 @@
         android:textSize="18sp"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="30dp"
-        android:text="21252500--"
+        android:text="2125250103"
         />
 
     <ImageView
